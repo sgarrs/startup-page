@@ -3,18 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="main.css" type="text/css" media="screen" title="main.css" charset="utf-8">
     <title>Startup Page</title>
-  </head>
-  <body>
-    <h1>Startup Page</h1>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" charset="utf-8"></script>
     <script charset="utf-8">
       WebFont.load({
         google: {
-          families: ['Merriweather']
+          families: ['Merriweather', 'Inconsolata']
         }
       });
     </script>
+    <link rel="stylesheet" href="main.css" type="text/css" media="screen" title="main.css" charset="utf-8">
+  </head>
+  <body>
+    <h1 class="title">Startup Page</h1>
+    <section>
+      <div class="container container--left">
+        <div class="interface">
+          <h2 class="interface__title">Links</h2>
+          <div class="interface__body">
+            <ul class="interface__list">
+              <li><a href="https://github.com/P1xt/p1xt-guides" target="_blank">P1xt Guides</a></li>
+              <li><a href="https://github.com/P1xt/p1xt-guides" target="_blank">P1xt Guides</a></li>
+              <li><a href="https://github.com/P1xt/p1xt-guides" target="_blank">P1xt Guides</a></li>
+              <li><a href="https://github.com/P1xt/p1xt-guides" target="_blank">P1xt Guides</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="interface interface--git">
+          <h2 class="interface__title">Git</h2>
+          <div class="interface__body">
+            <ul class="interface__list">
+              <li>Set up github page</li>
+              <li>Clean up github account</li>
+              <li><b>Course:</b> Try Git</li>
+              <li><b>Article:</b> don&rsquo;t f-up git 1, 2, 3</li>
+              <li><b>Book:</b> ProGit</li>
+              <li>
+                File view in vim
+                <ul>
+                  <li>revert changes</li>
+                  <li>add to .gitignore</li>
+                  <li>changes/staged changes</li>
+                  <li>unstage</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container container--right">
+        <img class="interface interface__image" src="startup-image.jpg" />
+      </div>
+    </section>
+    <script src="main.js"></script>
   </body>
 </html>
